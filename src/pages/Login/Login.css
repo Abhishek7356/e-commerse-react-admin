@@ -1,0 +1,69 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px !important;
+    margin: auto;
+
+}
+
+.loginBox {
+    display: flex;
+    width: 60%;
+    height: 70vh;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    width: 40%;
+    padding: 20px;
+}
+
+.leftTop {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftTop p {
+    width: 300px;
+    font-size: 17px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.rightSide input{
+    padding: 5px 20px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid rgba(96, 94, 94, 0.438);
+    outline: 0;
+    font-size: 20px;
+}
+.rightSide button{
+    outline:0;
+    background-color: rgba(29, 60, 195, 0.797);
+    border: 0;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+
+}

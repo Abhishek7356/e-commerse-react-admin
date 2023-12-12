@@ -1,0 +1,10 @@
+.chart{
+    padding: 0 20px;
+}
+.chartContainer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+.chartContainer h2{
+    margin-bottom: 20px;
+}

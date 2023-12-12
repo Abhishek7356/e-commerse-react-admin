@@ -1,0 +1,45 @@
+.siderOuterContainer {
+    flex: 1;
+}
+
+.sidebar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+    position: sticky;
+    top: 60px;
+    background-color: rgb(244, 245, 245);
+}
+
+.sidebarHead {
+    display: flex;
+    flex-direction: column;
+    /* gap: 7px; */
+}
+
+.sidebarHead h4 {
+    font-size: 20px;
+    color: rgba(46, 46, 46, 0.731);
+}
+
+.sidebarContent {
+    list-style-type: none;
+}
+
+.sidebarContentItems {
+    padding: 7px 6px;
+    font-size: 17px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 7px;
+    transition: .4s;
+    color: rgba(0, 0, 0, 0.809);
+    font-weight: 700;
+}
+
+.sidebarContentItems:hover {
+    background-color: rgb(194, 202, 206);
+}

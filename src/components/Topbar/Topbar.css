@@ -1,0 +1,42 @@
+.topbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    color: #2f2d2df9;
+    z-index: 1;
+    position: sticky;
+    background: #f7f4f4;
+    top: 0;
+}
+
+.topbarOptMenu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.topbarIcons {
+    position: relative;
+    padding: 2px 5px;
+}
+
+.notify {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px !important;
+    top: -7px;
+    right: 0;
+}
+
+.topbarName {
+    color: #800080;
+}

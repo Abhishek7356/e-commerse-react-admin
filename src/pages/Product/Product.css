@@ -1,0 +1,105 @@
+.productHeadDetalis img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.productHeaderSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productHeaderSec button {
+    border: 0;
+    outline: 0;
+    padding: 5px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.productDetails {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.chart {
+    flex: 2;
+}
+
+.allProductDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 17px;
+}
+.productHeadDetalis{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.productHeadDetalis p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.productIdSales{
+    width: 200px;
+    display: flex;
+    gap: 7px;
+    justify-content: space-between;
+}
+.productBottomSec{
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.bottomLeftSec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imgUploadSec img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.editProduct{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.editProduct label{
+    font-size: 18px;
+}
+.editProduct input{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(89, 86, 86, 0.6);
+    padding: 10px;
+    font-size: 16px;
+    width: 600px;
+}
+.editProduct select{
+    padding: 10px 20px;
+}
+.bottomRightSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgUploadSec{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

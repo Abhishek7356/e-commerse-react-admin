@@ -1,0 +1,20 @@
+.rightSideBar{
+    padding: 20px;
+}
+.actionBtns{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+.deleteBtn{
+    padding: 4px 12px;
+    background-color: rgba(255, 0, 0, 0.703);
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+tr{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.369);
+}

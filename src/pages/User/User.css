@@ -1,0 +1,124 @@
+
+.userTopSec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.createBtn{
+    border: 0;
+    outline: 0;
+    padding: 5px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.userViewAndEditContainer{
+    display: flex;
+    gap: 20px;
+}
+.leftUserBar{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+}
+.leftUserBar h3{
+    color: rgba(0, 0, 0, 0.671);
+}
+.userNameAndPropic{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.userProfilePic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userAllDetails{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userAllDetails i{
+    font-size: 20px;
+}
+.rightUserBar{
+    flex: 9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+}
+.editBox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.editInputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputfield input{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(41, 39, 39, 0.827);
+    width: 300px;
+}
+
+.inputfield label{
+    font-size: 17px;
+}
+
+.imgUploadBoxOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgUploadBox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imgUploadBox img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.uploadBtn{
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgba(192, 192, 192, 0.593);
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+.uploadBtn i{
+    font-size: 20px;
+}
+.updateBtn{
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}

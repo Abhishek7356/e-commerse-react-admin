@@ -1,0 +1,45 @@
+.inputContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.newUserInputBox {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newUserInputBox label{
+    font-size: 18px;
+    color: rgba(25, 25, 25, 0.946);
+}
+.newUserInputBox input{
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 8px;
+    outline: 0;
+    border: 1px solid rgba(61, 61, 61, 0.514);
+}
+.genderInput input{
+    margin-left: 15px;
+}
+.genderInput label{
+    margin-left: 5px;
+}
+.newUserInputBox select{
+    padding: 10px 20px;
+    outline: 0;
+    border-radius: 7px;
+}
+.createNewUserBtn{
+    margin-top: 40px;
+    padding: 5px 25px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
